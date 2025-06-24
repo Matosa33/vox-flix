@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
-import { Language, Translations, VoiceData } from '../types';
+import { Language, Translations, VoiceData, VoiceModel } from '../types';
 
 interface AppContextType {
   language: Language;
@@ -62,7 +62,39 @@ export const AppProvider: React.FC<AppProviderProps> = ({ children }) => {
         setTranslations(translationsData);
         
         // Load voice data
-        const voiceData = await fetchVoiceModels();
+        const voiceModels = await fetchVoiceModels();
+        const voiceData: VoiceData = {
+          categories: {
+            'trending': 'Trending',
+            'new': 'New Additions',
+            'narration': 'Best for Narration',
+            'multilingual': 'Multilingual',
+            'french': 'French Voices',
+            'celebrity': 'Celebrity & Character'
+          },
+          providers: {
+            'coqui': 'Coqui TTS',
+            'elevenlabs': 'ElevenLabs',
+            'openai': 'OpenAI'
+          },
+          models: voiceModels.map(model => ({
+            ...model,
+            language: model.languages?.[0] || 'en',
+            categories: model.languages || ['general'],
+            tags: [],
+            description: model.name,
+            characteristics: {
+              gender: 'neutral',
+              age: 'adult',
+              accent: 'neutral',
+              tone: 'neutral'
+            },
+            samples: [],
+            supported_languages: model.languages || ['en'],
+            premium: model.provider !== 'coqui',
+            rating: 4.5
+          }))
+        };
         setVoiceData(voiceData);
         
         setError(null);
