@@ -1,0 +1,148 @@
+{
+  "en": {
+    "app": {
+      "title": "VoxFlix",
+      "tagline": "Unlimited Voice Models, Premium Quality"
+    },
+    "navigation": {
+      "home": "Home",
+      "browse": "Browse",
+      "my_voices": "My Voices",
+      "search": "Search voices...",
+      "language": "Language"
+    },
+    "categories": {
+      "trending": "Trending Voices",
+      "new": "New Additions",
+      "narration": "Best for Narration", 
+      "multilingual": "Multilingual Models",
+      "french": "French Voices",
+      "celebrity": "Celebrity & Character Voices"
+    },
+    "voice_card": {
+      "provider": "Provider",
+      "language": "Language",
+      "rating": "Rating",
+      "premium": "Premium",
+      "free": "Free",
+      "play_sample": "Play Sample",
+      "download": "Download",
+      "use_voice": "Use Voice",
+      "learn_more": "Learn More"
+    },
+    "voice_detail": {
+      "description": "Description",
+      "characteristics": "Characteristics",
+      "supported_languages": "Supported Languages",
+      "voice_samples": "Voice Samples", 
+      "requirements": "System Requirements",
+      "download_size": "Download Size",
+      "text_to_speech": "Text-to-Speech Generator",
+      "enter_text": "Enter text to generate speech...",
+      "generate": "Generate Speech",
+      "generating": "Generating...",
+      "download_audio": "Download Audio"
+    },
+    "search": {
+      "filter_by": "Filter by",
+      "all_providers": "All Providers",
+      "all_languages": "All Languages",
+      "sort_by": "Sort by",
+      "name": "Name",
+      "rating": "Rating",
+      "newest": "Newest",
+      "results_found": "voices found"
+    },
+    "hero": {
+      "featured": "Featured Voice",
+      "watch_now": "Try Now",
+      "more_info": "More Info"
+    },
+    "footer": {
+      "about": "About VoxFlix",
+      "contact": "Contact",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    },
+    "common": {
+      "loading": "Loading...",
+      "error": "An error occurred",
+      "try_again": "Try Again",
+      "close": "Close",
+      "back": "Back"
+    }
+  },
+  "fr": {
+    "app": {
+      "title": "VoxFlix",
+      "tagline": "Modèles vocaux illimités, qualité premium"
+    },
+    "navigation": {
+      "home": "Accueil",
+      "browse": "Parcourir",
+      "my_voices": "Mes Voix",
+      "search": "Rechercher des voix...",
+      "language": "Langue"
+    },
+    "categories": {
+      "trending": "Voix Tendance",
+      "new": "Nouveautés",
+      "narration": "Parfait pour la Narration",
+      "multilingual": "Modèles Multilingues", 
+      "french": "Voix Françaises",
+      "celebrity": "Voix de Célébrités et Personnages"
+    },
+    "voice_card": {
+      "provider": "Fournisseur",
+      "language": "Langue",
+      "rating": "Évaluation",
+      "premium": "Premium",
+      "free": "Gratuit",
+      "play_sample": "Écouter",
+      "download": "Télécharger",
+      "use_voice": "Utiliser",
+      "learn_more": "En savoir plus"
+    },
+    "voice_detail": {
+      "description": "Description",
+      "characteristics": "Caractéristiques",
+      "supported_languages": "Langues supportées",
+      "voice_samples": "Échantillons vocaux",
+      "requirements": "Configuration requise",
+      "download_size": "Taille du téléchargement",
+      "text_to_speech": "Générateur de synthèse vocale",
+      "enter_text": "Entrez le texte à synthétiser...",
+      "generate": "Générer la voix",
+      "generating": "Génération en cours...",
+      "download_audio": "Télécharger l'audio"
+    },
+    "search": {
+      "filter_by": "Filtrer par",
+      "all_providers": "Tous les fournisseurs",
+      "all_languages": "Toutes les langues",
+      "sort_by": "Trier par",
+      "name": "Nom",
+      "rating": "Évaluation", 
+      "newest": "Plus récent",
+      "results_found": "voix trouvées"
+    },
+    "hero": {
+      "featured": "Voix en vedette",
+      "watch_now": "Essayer",
+      "more_info": "Plus d'infos"
+    },
+    "footer": {
+      "about": "À propos de VoxFlix",
+      "contact": "Contact",
+      "privacy": "Politique de confidentialité",
+      "terms": "Conditions d'utilisation"
+    },
+    "common": {
+      "loading": "Chargement...",
+      "error": "Une erreur s'est produite",
+      "try_again": "Réessayer",
+      "close": "Fermer",
+      "back": "Retour"
+    }
+  }
+}

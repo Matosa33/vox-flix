@@ -1,0 +1,234 @@
+{
+  "categories": {
+    "trending": "Trending Voices",
+    "new": "New Additions", 
+    "narration": "Best for Narration",
+    "multilingual": "Multilingual Models",
+    "french": "French Voices",
+    "celebrity": "Celebrity & Character Voices"
+  },
+  "providers": {
+    "elevenlabs": "ElevenLabs",
+    "playht": "Play.ht",
+    "wellsaid": "WellSaid Labs",
+    "tortoise": "Tortoise TTS",
+    "bark": "Bark"
+  },
+  "models": [
+    {
+      "id": "elevenlabs-adam",
+      "name": "Adam",
+      "provider": "elevenlabs",
+      "language": "en-US",
+      "categories": ["trending", "narration"],
+      "tags": ["deep", "professional", "narrator"],
+      "description": "A deep, professional male voice perfect for narrations and documentaries. Adam's voice is clear, authoritative, and engaging.",
+      "characteristics": {
+        "gender": "male",
+        "age": "adult",
+        "accent": "American",
+        "tone": "professional"
+      },
+      "samples": [
+        "/audio/adam-sample1.mp3",
+        "/audio/adam-sample2.mp3"
+      ],
+      "supported_languages": ["en-US", "en-GB"],
+      "premium": true,
+      "rating": 4.8
+    },
+    {
+      "id": "elevenlabs-bella",
+      "name": "Bella",
+      "provider": "elevenlabs",
+      "language": "en-US",
+      "categories": ["trending", "celebrity"],
+      "tags": ["warm", "friendly", "conversational"],
+      "description": "A warm and friendly female voice that's perfect for conversational content and customer service applications.",
+      "characteristics": {
+        "gender": "female",
+        "age": "young adult",
+        "accent": "American",
+        "tone": "friendly"
+      },
+      "samples": [
+        "/audio/bella-sample1.mp3"
+      ],
+      "supported_languages": ["en-US"],
+      "premium": true,
+      "rating": 4.7
+    },
+    {
+      "id": "playht-charlotte",
+      "name": "Charlotte",
+      "provider": "playht",
+      "language": "fr-FR",
+      "categories": ["french", "multilingual", "new"],
+      "tags": ["elegant", "sophisticated", "french"],
+      "description": "Une voix française élégante et sophistiquée, parfaite pour le contenu éducatif et les présentations professionnelles.",
+      "characteristics": {
+        "gender": "female",
+        "age": "adult",
+        "accent": "Parisian",
+        "tone": "elegant"
+      },
+      "samples": [
+        "/audio/charlotte-sample1.mp3"
+      ],
+      "supported_languages": ["fr-FR", "fr-CA"],
+      "premium": true,
+      "rating": 4.6
+    },
+    {
+      "id": "playht-diego",
+      "name": "Diego",
+      "provider": "playht",
+      "language": "es-ES",
+      "categories": ["multilingual", "new"],
+      "tags": ["energetic", "charismatic", "spanish"],
+      "description": "A charismatic Spanish voice with natural intonation, perfect for marketing content and storytelling.",
+      "characteristics": {
+        "gender": "male",
+        "age": "adult",
+        "accent": "Castilian",
+        "tone": "energetic"
+      },
+      "samples": [
+        "/audio/diego-sample1.mp3"
+      ],
+      "supported_languages": ["es-ES", "es-MX"],
+      "premium": true,
+      "rating": 4.5
+    },
+    {
+      "id": "wellsaid-vanessa",
+      "name": "Vanessa N.",
+      "provider": "wellsaid",
+      "language": "en-US",
+      "categories": ["trending", "narration"],
+      "tags": ["conversational", "clear", "professional"],
+      "description": "A clear and conversational American voice perfect for corporate training and educational content.",
+      "characteristics": {
+        "gender": "female",
+        "age": "adult",
+        "accent": "American",
+        "tone": "conversational"
+      },
+      "samples": [
+        "/audio/vanessa-sample1.mp3"
+      ],
+      "supported_languages": ["en-US"],
+      "premium": true,
+      "rating": 4.7
+    },
+    {
+      "id": "wellsaid-issa",
+      "name": "Issa B.",
+      "provider": "wellsaid",
+      "language": "en-GB",
+      "categories": ["trending", "celebrity"],
+      "tags": ["promotional", "british", "confident"],
+      "description": "A confident British voice with promotional flair, excellent for marketing and brand content.",
+      "characteristics": {
+        "gender": "female",
+        "age": "adult",
+        "accent": "British",
+        "tone": "confident"
+      },
+      "samples": [
+        "/audio/issa-sample1.mp3"
+      ],
+      "supported_languages": ["en-GB"],
+      "premium": true,
+      "rating": 4.6
+    },
+    {
+      "id": "tortoise-custom1",
+      "name": "Morgan Freeman Clone",
+      "provider": "tortoise",
+      "language": "en-US",
+      "categories": ["celebrity", "narration"],
+      "tags": ["deep", "iconic", "narrator", "documentary"],
+      "description": "A custom voice clone inspired by the legendary narrator. Perfect for documentaries and storytelling.",
+      "characteristics": {
+        "gender": "male",
+        "age": "senior",
+        "accent": "American",
+        "tone": "wise"
+      },
+      "samples": [
+        "/audio/morgan-sample1.mp3"
+      ],
+      "supported_languages": ["en-US"],
+      "premium": false,
+      "rating": 4.9,
+      "downloadSize": "2.1 GB",
+      "requirements": "NVIDIA GPU, 8GB VRAM"
+    },
+    {
+      "id": "bark-narrator",
+      "name": "Bark Narrator",
+      "provider": "bark",
+      "language": "en-US",
+      "categories": ["new", "narration"],
+      "tags": ["synthetic", "versatile", "expressive"],
+      "description": "An expressive synthetic voice capable of generating nonverbal communication and emotional nuances.",
+      "characteristics": {
+        "gender": "neutral",
+        "age": "adult",
+        "accent": "American",
+        "tone": "versatile"
+      },
+      "samples": [
+        "/audio/bark-sample1.mp3"
+      ],
+      "supported_languages": ["en-US", "fr-FR", "es-ES", "de-DE"],
+      "premium": false,
+      "rating": 4.3,
+      "downloadSize": "1.8 GB",
+      "requirements": "4GB RAM minimum"
+    },
+    {
+      "id": "playht-marie",
+      "name": "Marie",
+      "provider": "playht", 
+      "language": "fr-FR",
+      "categories": ["french", "multilingual"],
+      "tags": ["gentle", "soothing", "meditation"],
+      "description": "Une voix douce et apaisante, idéale pour la méditation, la relaxation et le contenu de bien-être.",
+      "characteristics": {
+        "gender": "female",
+        "age": "adult",
+        "accent": "French",
+        "tone": "soothing"
+      },
+      "samples": [
+        "/audio/marie-sample1.mp3"
+      ],
+      "supported_languages": ["fr-FR"],
+      "premium": true,
+      "rating": 4.4
+    },
+    {
+      "id": "elevenlabs-clyde",
+      "name": "Clyde",
+      "provider": "elevenlabs",
+      "language": "en-US", 
+      "categories": ["celebrity", "trending"],
+      "tags": ["character", "animated", "fun"],
+      "description": "A fun and animated character voice perfect for gaming content, animations, and entertainment.",
+      "characteristics": {
+        "gender": "male",
+        "age": "young adult",
+        "accent": "American",
+        "tone": "playful"
+      },
+      "samples": [
+        "/audio/clyde-sample1.mp3"
+      ],
+      "supported_languages": ["en-US"],
+      "premium": true,
+      "rating": 4.5
+    }
+  ]
+}
