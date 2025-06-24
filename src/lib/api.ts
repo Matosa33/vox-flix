@@ -350,10 +350,42 @@ export const checkServerHealth = async () => {
 // Fetch translations (for backwards compatibility)
 export async function fetchTranslations() {
   return {
-    en: { home: 'Home', browse: 'Browse', myVoices: 'My Voices' },
-    fr: { home: 'Accueil', browse: 'Parcourir', myVoices: 'Mes Voix' },
-    es: { home: 'Inicio', browse: 'Explorar', myVoices: 'Mis Voces' },
-    de: { home: 'Startseite', browse: 'Durchsuchen', myVoices: 'Meine Stimmen' }
+    en: {
+      app: { title: 'VoxFlix AI' },
+      navigation: {
+        home: 'Home',
+        browse: 'Browse',
+        my_voices: 'My Voices'
+      },
+      voice_card: {
+        free: 'Free',
+        play_sample: 'Play Sample'
+      },
+      search: {
+        results_found: 'voices found'
+      },
+      common: {
+        loading: 'Loading...'
+      }
+    },
+    fr: {
+      app: { title: 'VoxFlix AI' },
+      navigation: {
+        home: 'Accueil',
+        browse: 'Parcourir',
+        my_voices: 'Mes Voix'
+      },
+      voice_card: {
+        free: 'Gratuit',
+        play_sample: 'Écouter'
+      },
+      search: {
+        results_found: 'voix trouvées'
+      },
+      common: {
+        loading: 'Chargement...'
+      }
+    }
   };
 }
 
